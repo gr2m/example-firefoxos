@@ -58,7 +58,7 @@ html[data-hoodie-account-status=signedout] .hoodie-account-signedout {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .copy {
     background: none !important;
     padding: 10px 20px;
