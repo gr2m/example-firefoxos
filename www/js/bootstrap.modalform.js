@@ -64,7 +64,7 @@
         });
 
         $modal.trigger('submit', inputs);
-        $modal.modal('hide');
+        // $modal.modal('hide');
       });
 
       $modal.on('error', function(event, error) {
