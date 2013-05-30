@@ -41,8 +41,6 @@
           </div><!-- /.hoodie-account-signedout -->
 
           <div class="hoodie-account-signedin">
-            Hello,
-            <span class="hoodie-username"><!-- usern name will be filled in here --></span>
             <span class="btn-group">
               <button class="btn btn-inverse btn-large" data-hoodie-action="signout">Sign Out</button>
               <button class="btn dropdown-toggle btn-inverse btn-large" data-toggle="dropdown">
@@ -57,10 +55,8 @@
           </div><!-- /.hoodie-account-signedin -->
 
           <div class="hoodie-account-error">
-            Hello,
-            <span class="hoodie-username"><!-- usern name will be filled in here --></span>.
             <span class="btn-group">
-              <button class="btn btn-danger btn-large" data-hoodie-action="signin">Authentication error: Sign in again</button>
+              <button class="btn btn-danger btn-large" data-hoodie-action="signin">Authentication error</button>
               <button class="btn dropdown-toggle btn-danger btn-large" data-toggle="dropdown">
                 <span class="caret"></span>
               </button>
@@ -103,16 +99,10 @@
               .forEach( addTodo )
           })
 
-          var manifestLocation = "./manifest.webapp"; // your domain here
-          var installRequest = navigator.mozApps.install(manifestLocation);
-
-          installRequest.onsuccess = function(data) {
-              // App installed successfully!
-          };
-
-          installRequest.onerror = function(err) {
-              // App couldn't be installed!
-          };
+          if (navigator.mozApps) {
+            var manifestLocation = "./manifest.webapp"; // your domain here
+            var installRequest = navigator.mozApps.install(manifestLocation); 
+          }
         </script>
       </div><!-- /.main -->
 
