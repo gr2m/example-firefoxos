@@ -102,6 +102,18 @@
               .sort( function(a, b) { return a.createdAt > b.createdAt })
               .forEach( addTodo )
           })
+
+          var manifestLocation = "./manifest.webapp"; // your domain here
+          var installRequest = navigator.mozApps.install(manifestLocation);
+
+          installRequest.onsuccess = function(data) {
+              // App installed successfully!
+          };
+
+          installRequest.onerror = function(err) {
+              // App couldn't be installed!
+              console.log("Install error!");
+          };
         </script>
       </div><!-- /.main -->
 
