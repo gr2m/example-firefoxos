@@ -72,12 +72,13 @@ html[data-hoodie-account-status=signedout] .hoodie-account-signedout {
     font-size: 40px;
   }
   .container {
-    position: absolute !important;
+    position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
     margin: 0 !important;
+    overflow: auto !important;
   }
   .modal {
     position: absolute !important;
