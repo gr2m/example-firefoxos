@@ -3,7 +3,7 @@
     "description": "Hoodie ❤ FirefoxOS",
     "launch_path": "/example-firefoxos/www",
     "icons": {
-        "128": "/img/icon-128.png"
+        "128": "img/icon-128.png"
     },
     "developer": {
         "name": "Hoodie",
