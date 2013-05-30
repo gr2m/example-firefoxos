@@ -1,0 +1,17 @@
+{
+  "name": "hoodie-firefoxos-app",
+  "version": "1.0.0",
+  "type": "app",
+  "dependencies": {
+    "hoodie-app": "git://github.com/hoodiehq/hoodie-app.git",
+    "hoodie-worker-users": "git://github.com/hoodiehq/worker-users.git"
+  },
+  "subdomain": "hoodie-hoodie-firefoxos-app",
+  "domains": [
+    "admin.hoodie-hoodie-firefoxos-app.jit.su",
+    "couch.hoodie-hoodie-firefoxos-app.jit.su"
+  ],
+  "scripts": {
+    "start": "node node_modules/hoodie-app/bin/start"
+  }
+}
