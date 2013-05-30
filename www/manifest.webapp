@@ -1,9 +1,9 @@
 {
     "name": "Hoodie Todos",
     "description": "Hoodie ❤ FirefoxOS",
-    "launch_path": "/example-firefoxos/www",
+    "launch_path": "/",
     "icons": {
-        "128": "/example-firefoxos/www/img/icon-128.png"
+        "128": "//img/icon-128.png"
     },
     "developer": {
         "name": "Hoodie",
