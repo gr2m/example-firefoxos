@@ -1,0 +1,16 @@
+{
+    "name": "Hoodie Todos",
+    "description": "Hoodie ❤ FirefoxOS",
+    "launch_path": "/",
+    "icons": {
+        "128": "/img/icon-128.png"
+    },
+    "developer": {
+        "name": "Hoodie",
+        "url": "http://hood.ie"
+    },
+    "orientation": [
+        "portrait"
+    ],
+    "default_locale": "en"
+}
