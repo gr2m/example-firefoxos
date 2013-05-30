@@ -82,4 +82,8 @@ html[data-hoodie-account-status=signedout] .hoodie-account-signedout {
     background: #CCC;
     border-radius: 5px;
   }
+  .dropdown-menu a {
+    font-size: 18px;
+    padding: 15px 20px;
+  }
 }
